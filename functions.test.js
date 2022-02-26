@@ -21,3 +21,10 @@ test("should be null", () => {
 test("should be falsy", () => {
   expect(functions.checkValue(1)).toBeTruthy();
 });
+
+test("User should be Jackson Collins-Ikpe", () => {
+  expect(functions.createUser()).toEqual({
+    firstName: "Jackson",
+    lastName: "Collins-Ikpe",
+  });
+});
