@@ -4,7 +4,8 @@
   "description": "Using jest testing framework to test some functions",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testwatch": "jest --watchAll"
   },
   "keywords": [
     "jest",
